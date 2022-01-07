@@ -8,6 +8,7 @@ function Home() {
         <Footer />
     </>
   );
+    // return <h1 className='home'>LIKE & SUBSCRIBE</h1>;
 }
 
 export default Home;

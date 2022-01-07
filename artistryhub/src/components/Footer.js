@@ -14,16 +14,6 @@ function Footer() {
             </Link>
           </div>
           <small class='website-rights'>ArtistryHub © 2022</small>
-          <div class='social-icons'>
-            <Link
-              class='social-icon-link email'
-              to='/'
-              target='/'
-              aria-label='E-mail'
-            >
-              <i class='fa fa-envelope' />
-            </Link>
-          </div>
         </div>
       </section>
     </div>
