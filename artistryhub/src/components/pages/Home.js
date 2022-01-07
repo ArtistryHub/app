@@ -5,10 +5,11 @@ import Footer from '../Footer';
 function Home() {
   return (
     <>
+        <div className='home'>
+        </div>
         <Footer />
     </>
   );
-    // return <h1 className='home'>LIKE & SUBSCRIBE</h1>;
 }
 
 export default Home;
