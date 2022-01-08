@@ -52,3 +52,84 @@
   color: #fff;
   font-size: 100px;
 }
+
+.events-list, .artists-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.artists-list {
+  height: 80vh;
+  overflow: auto;
+  -webkit-box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.42); 
+  box-shadow: 5px 5px 10px 5px rgba(0,0,0,0.42);
+  margin: 8px;
+}
+
+.event-item, .artist-item {
+  background-color: #d79922;
+  margin: 8px;
+  -webkit-box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.42); 
+  box-shadow: 5px 5px 10px 0px rgba(0,0,0,0.42);
+  height: 400px;
+}
+
+.artist-item {
+  background-color: #4056a1;
+  color: white;
+}
+
+.event-item-card, .artist-item-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 200px;
+}
+
+.event-item-title, .event-item-location, .event-item-date, .event-item-details, .artist-item-name, .artist-item-type, .artist-item-skills, .artist-item-description {
+  margin: 2px;
+}
+
+.event-item-title, .artist-item-name {
+  font-size: 20px;
+}
+
+.event-item-details {
+  height: 100%;
+  overflow: auto;
+}
+
+.event-item-button {
+  
+}
+
+.event-item-details-link, .artist-item-details-link {
+  display: block;
+  text-decoration: none;
+  color: black;
+}
+
+.organizer-and-applicants-container {
+  display: flex;
+}
+
+.create-event-form {
+  margin: 16px;
+}
+
+.create-event-form-input {
+  background-color: #d7982281;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 20vw;
+  margin: 8px 0 8px 0;
+  padding: 8px;
+}
+
+.create-event-form-checkbox {
+  margin: 4px;
+}

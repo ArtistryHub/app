@@ -31,6 +31,12 @@ function Navbar() {
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
             ArtistryHub
           </Link>
+          <Link to='/organizer/events/add' className='nav-links' onClick={closeMobileMenu}>
+            Add Event
+          </Link>
+          <Link to='/organizer/events' className='nav-links' onClick={closeMobileMenu}>
+            My Events
+          </Link>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
