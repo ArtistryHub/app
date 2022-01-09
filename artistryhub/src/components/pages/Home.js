@@ -10,7 +10,9 @@ import { Link } from 'react-router-dom';
 
 function Home() {
   // const [button, setButton] = useState(true);
-
+  localStorage.setItem("email", "");
+  localStorage.setItem("userType", "");
+  localStorage.setItem("isLoggedIn", false);
   return (
     <>
         <div className='home'>

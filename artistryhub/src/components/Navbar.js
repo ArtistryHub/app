@@ -86,7 +86,14 @@ function Navbar() {
 
           </ul>
           {/* {button && <Button buttonStyle='btn--outline'>Sign up</Button>} */}
-          {button && <Link to='/sign-in'><Button buttonStyle='btn--outline'>Sign in</Button></Link>}
+          {console.log("navbar: is logged in? ")}
+          {console.log(localStorage.getItem("isLoggedIn") === "true")}
+          {button && (localStorage.getItem("isLoggedIn") === "true" ? false : true) && <Link to='/sign-in'><Button buttonStyle='btn--outline'>Sign in</Button></Link>}
+          {button && (localStorage.getItem("isLoggedIn") === "true" ? true : false) && 
+            <Link to={"/" + localStorage.getItem("userType")+"/home"}>
+              <Button buttonStyle='btn--outline'>{localStorage.getItem("email") + " - " + localStorage.getItem("userType")}</Button>
+            </Link>}
+          {button && (localStorage.getItem("isLoggedIn") === "true" ? true : false) && <Link to='/'><Button buttonStyle='btn--outline'>Sign out</Button></Link>}
         </div>
       </nav>
     </>
