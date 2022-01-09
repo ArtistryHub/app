@@ -156,8 +156,12 @@ form {
   overflow: auto;
 }
 
-.event-item-button {
-  
+.artist-item-accept-button {
+  background-color: #23b973;
+}
+
+.artist-item-decline-button {
+  background-color: #ffc107;
 }
 
 .event-item-details-link, .artist-item-details-link {
@@ -171,6 +175,9 @@ form {
 }
 
 .create-event-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: 16px;
 }
 
@@ -186,4 +193,21 @@ form {
 
 .create-event-form-checkbox {
   margin: 4px;
+}
+
+.filters {
+  display: flex;
+  justify-content: center;
+}
+
+.filter-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 8px;
+}
+
+.apply-filters-button {
+  background-color: #d79922;
+  color: white;
 }

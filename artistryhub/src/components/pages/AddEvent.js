@@ -75,7 +75,7 @@ function AddEvent() {
           <Form.Check inline label="Others" name="group-tag" type="checkbox" id="Others" className='create-event-form-checkbox' onChange={handleTags} />
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button variant="primary" type="submit" style={{backgroundColor: '#4056a1', color: 'white'}}>
           Create event
         </Button>
       </Form>

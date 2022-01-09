@@ -16,6 +16,8 @@ import LogIn from './components/pages/LogIn';
 import Events from './components/pages/Events';
 import EventDetails from './components/pages/EventDetails';
 import AddEvent from './components/pages/AddEvent';
+import ArtistApplicant from './components/pages/ArtistApplicant'
+import ArtistRequest from './components/pages/ArtistRequest'
 
 function App() {
   return (
@@ -29,6 +31,8 @@ function App() {
           <Route path="/sign-up"><SignUp /></Route>
           <Route path="/sign-in"><LogIn /></Route>
           <Route exact path="/artist/home"><ArtistHome /></Route>
+          <Route exact path="/artist/home/applicant/:id"><ArtistApplicant /></Route>
+          <Route exact path="/artist/home/request/:id"><ArtistRequest /></Route>
           <Route exact path="/artist/sign-up"><ArtistSignUp /></Route>
           <Route exact path="/organizer/home"><OrganizerHome /></Route>
           <Route exact path="/organizer/sign-up"><OrganizerSignUp /></Route>
