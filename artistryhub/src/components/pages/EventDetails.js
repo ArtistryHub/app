@@ -29,7 +29,7 @@ function EventDetails() {
           <Card.Text className='artist-item-description'>
             {artist.description}
           </Card.Text>
-          <Button className='artist-item-button' variant="primary"><Link to={'/artist/' + artist.id} className='artist-item-details-link'>Details</Link></Button>
+          <Button className='artist-item-button' variant="primary"><Link to={'/artist/home/' + artist.id} className='artist-item-details-link'>Details</Link></Button>
         </Card.Body>
       </Card>
     </li>);
