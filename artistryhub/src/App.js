@@ -13,6 +13,9 @@ import ArtistSignUp from './components/pages/ArtistSignUp';
 import OrganizerHome from './components/pages/OrganizerHome';
 import OrganizerSignUp from './components/pages/OrganizerSignUp';
 import LogIn from './components/pages/LogIn';
+import Events from './components/pages/Events';
+import EventDetails from './components/pages/EventDetails';
+import AddEvent from './components/pages/AddEvent';
 
 function App() {
   return (
@@ -29,6 +32,9 @@ function App() {
           <Route exact path="/artist/sign-up"><ArtistSignUp /></Route>
           <Route exact path="/organizer/home"><OrganizerHome /></Route>
           <Route exact path="/organizer/sign-up"><OrganizerSignUp /></Route>
+          <Route exact path="/organizer/events"><Events /></Route>
+          <Route exact path="/organizer/events/add"><AddEvent /></Route>
+          <Route exact path="/organizer/events/:id"><EventDetails /></Route>
         </Switch>
       </Router>
     </>
