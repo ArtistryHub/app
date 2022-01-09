@@ -27,6 +27,16 @@
     margin-right: 10px;
   }
 
+  .btn--signup2 {
+    background-color: #4056A1;
+    color: #fff;
+    padding: 8px 20px;
+    text-align: center;
+    text-size-adjust: auto;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    margin-right: 10px;
+  }
   .btn--signup {
     background-color: #d79922;
     color: #fff;

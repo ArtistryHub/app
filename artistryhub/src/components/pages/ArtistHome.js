@@ -1,7 +1,13 @@
 import React from 'react';
 import '../../App.css';
 
+
 export default function ArtistHome() {
-  return <h1 className='artist-home'>Artist Homepage</h1>;
+
+  return (
+    <>
+      <h1>Artist HomePage</h1>
+    </>
+  );
 //   TODO Vlad
 }

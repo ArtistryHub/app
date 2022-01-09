@@ -16,20 +16,20 @@ function Home() {
         <div className='home'>
           
           <Link
-            to='/artist'
+            to='/artist/sign-up'
             // className='nav-links-mobile'
             // onClick={closeMobileMenu}
           >
-            <Button buttonStyle='btn--signup'>Sign in as an artist</Button>
+            <Button buttonStyle='btn--signup'>Sign up as an artist</Button>
             
           </Link>
           
           <Link
-            to='/organizer'
+            to='/organizer/sign-up'
             // className='nav-links-mobile'
             // onClick={closeMobileMenu}
           >
-            <Button buttonStyle='btn--signup'>Sign in as an organizer</Button>
+            <Button buttonStyle='btn--signup'>Sign up as an organizer</Button>
             
           </Link>
         </div>
